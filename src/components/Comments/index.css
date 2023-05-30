@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.firstDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  width: 80%;
+}
+.firstChild1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #0b69ff;
+}
+.firstChild2Comments {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  appearance: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input {
+  margin-bottom: 20px;
+  appearance: none;
+  background-color: transparent;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 100%;
+}
+.secondDiv {
+  width: 80%;
+}
+hr {
+  border-top: 1px solid black;
+  width: 100%;
+}
+.secondChild1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.innerSecondChild1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  background-color: #0b69ff;
+  margin: 10px;
+  padding: 10px;
+}
